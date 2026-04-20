@@ -1,7 +1,10 @@
 <div class="container flex flex-wrap w-1/2 max-w-6xl mx-auto mt-10 gap-2">
-  <h1 class="text-4xl font-bold text-blue-600 text-center mt-10 text-center w-full mb-5">
+  <h1 class="text-4xl font-bold text-blue-600 text-center mt-10 text-center w-full mb-2">
     {{title}}
   </h1>
+  <p class="text-sm text-gray-600 text-center w-full mb-10">
+    {{subtitle}}
+  </p>
   <div
     class="card flex flex-col gap-2 grow p-5 items-center border border-gray-300 rounded-[20px] w-1/4 transition-all duration-300 bg-amber-100 hover:shadow-lg hover:scale-[1.03]"
     *ngFor="let item of item">
