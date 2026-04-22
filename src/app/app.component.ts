@@ -11,6 +11,7 @@ import { CommonModule } from '@angular/common';
 export class AppComponent {
   title = 'Angular + Tailwind Working 🚀';
   subtitle = 'This is a simple Angular application styled with Tailwind CSS.';
+  text = "this is a long text";
 
   item = [
     {
